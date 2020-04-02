@@ -5,13 +5,10 @@ import Login from "./views/Login.vue"
 Vue.use(Router);
 
 export default new Router({
+  base:"/website/",
   mode:'history',
+  // mode:'hash',
   routes: [
-    // {
-    //   path: "/",
-    //   name: "home",
-    //   component: Home
-    // },
     {
       path:"/",
       name:"login",
